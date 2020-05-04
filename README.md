@@ -24,6 +24,7 @@ After preparing your input data, set N as time points, X as input data and run t
 
 <p>preADMM(N, X, alpha, beta, error)[[1]]</p>
 
+Then you will have DGRN for your datasets.
 
 ## Related information
 preprint manuscript: https://www.biorxiv.org/content/10.1101/799189v1
