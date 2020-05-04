@@ -1,0 +1,2 @@
+exportPattern("^[[:alpha:]]+")
+import('splatter', 'scater', 'SingleCellExperiment', 'ROCR','ggplot2','reshape2')

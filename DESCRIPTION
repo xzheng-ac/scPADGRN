@@ -1,0 +1,12 @@
+Package: scPADGRN
+Type: Package
+Title: A PADMM approach for reconstructing DGRN using scRNA-seq
+Version: 0.1.0
+Author: Xiao Zheng
+Maintainer: Xiao Zheng <xzheng.ac@gmail.com>
+Description: A PADMM approach for reconstructing DGRN using scRNA-seq.
+    github link: https://github.com/xzheng-ac/scPADGRN
+    research paper link: https://www.biorxiv.org/content/10.1101/799189v1
+License: Artistic-2.0
+Encoding: UTF-8
+LazyData: true
