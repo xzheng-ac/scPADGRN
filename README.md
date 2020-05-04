@@ -14,7 +14,6 @@ File path \scPADGRN\man includes R Documentation files of each individual functi
 1. download files by clone or download from current github page to local directory;
 2. Open scRPADGRN.Rproj by Rstudio, press command+shift+B to build the package;
 3. To reconstruct DGRNs of real data application, enter directory scPADGRN/data/dataset1. In 'File' panes, click 'more' bottom and click 'Set As Working Directory'. Then run 'script_dataset1.R' file, and we will have DGRN of Dataset 1. DGRNs of Dataset 2 and 3 can also obtained in this way;
-4. A example of simulation is in \scPADGRN\data\example. Run 'example_script.R', we can have simulated data and DGRNs by scPADGRN.
 
 ## For other datasets
 
