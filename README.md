@@ -20,7 +20,9 @@ File path \scPADGRN\man includes R Documentation files of each individual functi
 
 Input data: a list, each element in the list should be a numerical matrix. The matrix is gene expression of time $t,(t=1,2,\cdots)$ . Row and column of matrix are gene and cells. 
 
-In 'exaple_script.R' file, replace 'data' generated from 'simulation2' by your own data. Run and obtain DGRN by scPADGRN. 
+After preparing your input data, set N as time points, X as input data and run the following code:
+
+<p>preADMM(N, X, alpha, beta, error)[[1]]</p>
 
 
 ## Related information
