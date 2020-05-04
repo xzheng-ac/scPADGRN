@@ -7,7 +7,7 @@
 # # to use 'normalize' in simulation2/simgroups
 # library(scater)
 
-preADMM <- function(N, X, alpha, beta, error){
+preADMM <- function(N, X, alpha=0.1, beta=0.01, error=0.01){
     timestart<-Sys.time()
     maxit <- 100
     rho <- 1
