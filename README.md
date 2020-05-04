@@ -5,7 +5,7 @@ scPADGRN: A PADMM approach for reconstructing dynamic gene regulatory network us
 
 ## General 
 
-This project includes relative code of  scPADGRN. Three datasets and corresponding scritpts are in directory of \scPADGRN\data. There is also an example script of generating simulation data.
+This project includes relative code of  scPADGRN. Three datasets and corresponding scritpts are in directory of \scPADGRN\data. 
 
 File path \scPADGRN\man includes R Documentation files of each individual function. One '.Rd' file consists of description,usage, arguments, etc. of its function. 
 
