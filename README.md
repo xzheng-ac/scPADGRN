@@ -22,7 +22,7 @@ X –  a list variable, with each element a numerical matrix containing gene exp
 N- an integer variable indicating the number of time points.
 Run the following code, which will return the DGRN for your dataset X: 
 
-<p>preADMM(N, X, alpha, beta, error)[[1]]<\p>
+<p>preADMM(N, X, alpha, beta, error)[[1]]
 
 
 ## Related information
