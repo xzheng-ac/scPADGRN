@@ -25,7 +25,7 @@ for(i in c(1:(N-1))){
     net[[i]][net[[i]]<0]<- net[[i]][net[[i]]<0]/max(abs(net[[i]][net[[i]]<0]))
     colnames(net[[i]])<-tf[,1]
     rownames(net[[i]])<-tf[,1]
-    net[[i]][abs(net[[i]])<0.2268]<-0
+    net[[i]][abs(net[[i]])<0.2425]<-0
     net[[i]] <- abs(net[[i]])
     net[[i]][net[[i]]>0] <- 1
     net[[i]][net[[i]]<0] <- -1
