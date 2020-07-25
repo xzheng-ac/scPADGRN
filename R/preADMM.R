@@ -70,7 +70,6 @@ preADMM <- function(N, X, alpha=0.1, beta=0.01, error=0.01){
         V[[j]] <- V[[j]]-A[[j]]+C[[j]]
 
         # stop criteron
-        # examine
         reError <- rep(0,N-1)
         for (k in c(1:(N-1))) {
             reError[k] <- norm(A[[k]]-Astar[[k]])/norm(A[[k]])
