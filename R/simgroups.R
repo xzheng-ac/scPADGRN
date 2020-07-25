@@ -9,7 +9,5 @@ simgroups <- function(m,n,k){
     # Second, run main function of splatter
     sim.groups <- splatSimulate(params, method = "group", verbose = FALSE)
     sim.groups <- normalize(sim.groups)
-    # optional: plot PCA figure
-    # plotPCA(sim.groups, colour_by = "Group")
     return(sim.groups)
 }
