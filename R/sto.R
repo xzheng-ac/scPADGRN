@@ -7,4 +7,3 @@ sto <- function(M, lambda, rho){
     B[which(as.matrix(M) < -k)] <- B[which(as.matrix(M) < -k)] + k
     return(B)
 }
-# unit tested
