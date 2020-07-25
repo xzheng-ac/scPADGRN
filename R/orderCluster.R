@@ -6,13 +6,8 @@ orderCluster <- function(M,k){
     N <- matrix(0, nrow(M), k)
     distance <- dist(t(M))
     distance <- as.matrix(distance)
-    # get the first n-k numbers
-    # distance: c(1:n-1)
     distance <- diag(distance[2:n,1:(n-1)])
-    # link: n-k links, make sure k clusters
     link <- rank(distance) <= n - k
-    # link <- c(0, link, n)
-    # a little mistake
     j <- 1
     N[,1] <- M[,1]
     for (i in c(1:(n-1))) {
